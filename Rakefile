@@ -1,5 +1,5 @@
 require_relative './config/environment'
-require 'sinatra/activerecord/rake'
+require 'sinatra/activerecord/rake' #how we get access to the Rake commands
 
 task :console do
   require 'irb'
